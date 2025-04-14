@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+  }
+
+  body {
+    background-color: #f4f4f4;
+    padding: 20px;
+  }
+
+  header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  header h1 {
+    color: darkblue;
+  }
+
+  main {
+    max-width: 800px;
+    margin: auto;
+  }
+
+  section {
+    background-color: white;
+    padding: 16px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+
+  form > div {
+    margin-bottom: 12px;
+  }
+
+  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 4px;
+  }
+
+  input[type="text"],
+  input[type="number"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+  }
+
+  input[type="checkbox"] {
+    transform: scale(1.2);
+    margin-right: 8px;
+  }
+
+  button {
+    background-color: darkblue;
+    color: white;
+    border: none;
+    padding: 10px 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 8px;
+  }
+
+  button:hover {
+    background-color: #002f6c;
+  }
+
+  .belum,
+  .sudah {
+    background-color: darkblue;
+    color: white;
+    padding: 8px;
+    margin-top: 5px;
+    border-radius: 10px;
+  }
+
+  .isi {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    margin-top: 10px;
+  }
+
+  .book-item {
+    background-color: white;
+    color: black;
+    padding: 12px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: calc(50% - 10px);
+  }
+
+  .button-book > button {
+    background-color: white;
+    color: black;
+  }
+
+  .button-book > button:hover{
+    background-color: rgb(220, 220, 220);
+  }
+
+  @media (max-width: 600px) {
+    .book-item {
+      width: 100%;
+    }
+  }
