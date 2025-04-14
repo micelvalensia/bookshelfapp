@@ -22,3 +22,5 @@ Bookshelf App adalah aplikasi sederhana untuk mengelola koleksi buku yang telah 
 3. Nikmati aplikasi Bookshelf untuk mengelola koleksi buku kamu!
 
 ## Preview Tampilan
+
+![Rak Buku](https://raw.githubusercontent.com/micelvalensia/bookshelfapp/main/preview.png)
